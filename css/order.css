@@ -1,0 +1,138 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ header {
+   width: 100%;
+   height: 69px;
+   background-color: black;
+ }
+
+ .navbar {
+   width: 100%;
+   height: 65px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 20px;
+ }
+
+ .amazon-left-header {
+   padding: 10px 5px 5px 5px;
+   border-radius: 2px;
+ }
+
+ .amazon-left-header:hover {
+   border: 1px solid white;
+ }
+
+ .p-logo {
+   display: none;
+ }
+
+ .s-logo {
+   /* width: 123px; */
+   height: 36px;
+ }
+
+ .amazon-mid-header {
+   width: 999px;
+   display: flex;
+   align-items: center;
+ }
+
+ .Search {
+   width:100%;
+   height: 46px;
+   border: none;
+   padding: 14px;
+   font-size: 21px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   flex: 1;
+   flex-shrink: 0;
+ }
+
+ .Search:active {
+   border: 2px solid orange;
+ }
+
+ .search-btn {
+   width: 50px;
+   height: 47px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   border: none;
+   background-color: orange;
+ }
+
+ .search-icon img {
+   width: 26px;
+   height: 22px;
+ }
+
+ .amazon-right-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .return-order-link a {
+   text-decoration: none;
+   color: white;
+ }
+
+ .return-order-link {
+   padding: 5px;
+   border-radius: 2px;
+ }
+
+ .return-order-link:hover {
+   border: 1px solid white;
+ }
+
+ .return-text {
+   font-size: 15px;
+ }
+
+ .order-text,
+ .cart-text {
+   font-size: 19px;
+   font-weight: bold;
+ }
+
+ .cart-link {
+   padding: 5px 3px;
+   border-radius: 2px;
+ }
+
+ .cart-link:hover {
+   border: 1px solid white;
+ }
+
+ .cart-link a {
+   text-decoration: none;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .cart-quantity {
+   position: relative;
+   left: 35px;
+   bottom: 12px;
+   font-size: 25px;
+   color: orange;
+ }
+
+ .cart-icon img {
+   width: 50px;
+   height: 40px;
+ }
+
+ .cart-text {
+   margin-top: 12px;
+ }

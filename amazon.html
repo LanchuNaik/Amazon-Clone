@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,900&family=Caprasimo&family=Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;500;700;900&family=Ysabeau+SC:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/amazon.css">
+</head>
+
+<body>
+  <div class="amazon-header">
+
+    <div class="amazon-left-header">
+      <a href="amazon.html" class="header-link">
+        <img src="images/amazon-mobile-logo-white.png" alt="amazon-logo" class="p-logo">
+        <img src="images/amazon-logo-white.png" alt="amazon-logo" class="s-logo">
+      </a>
+    </div>
+
+    <div class="amazon-mid-header">
+      <input type="text" name="Search" id="Search" placeholder="Search">
+      <button class="search-btn"><img src="images/icons/search-icon.png" alt="" class="search-icon"></button>
+    </div>
+
+    <div class="amazon-right-header">
+      <div class="return-order-link">
+        <p class="return-text">Returns</p>
+        <p class="order-text">&Orders</p>
+      </div>
+
+      <div class="cart-link">
+        <a class="cart-quantity-container" href="cart.html">
+          <div class="cart-quantity js-cart-quantity"></div>
+          <img src="images/icons/cart-icon.png" alt="cart-icon" class="cart-icon">
+          <div class="cart-text">cart</div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="main">
+      <div class="product-grid js-products-grid">
+      </div>      
+  </div>
+
+  <script type="module" src="script/amazon.js"></script>
+
+</body>
+</html>
